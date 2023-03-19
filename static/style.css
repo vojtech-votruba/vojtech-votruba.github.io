@@ -1,0 +1,53 @@
+body {
+    color: rgb(44, 44, 44);
+    background-color: antiquewhite;
+    font-family: Merriweather;
+}
+
+body.dark-theme {
+    color: whitesmoke;
+    background-color: rgb(44, 44, 44);
+}
+
+.toppanel{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.leftpanel{
+    background-color: greenyellow;
+    position: fixed;
+    top: 30%;
+    width: 15%;
+    height: 50%;
+}
+
+.main{
+    background-color: blue;
+    position: absolute;
+    top:15%;
+    height: 85%;
+    width: 80%;
+    left: 20%;
+}
+
+#button-switch{
+    color: whitesmoke;
+    background-color: rgb(44, 44, 44);
+    position: absolute;
+    top: 9%;
+    right:1%;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+body.dark-theme #button-switch {
+    color: rgb(44, 44, 44);
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 15px 30px;
+}
