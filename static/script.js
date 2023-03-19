@@ -1,14 +1,22 @@
-window.onload = () => {
-    const btn = document.querySelector('.btn-toggle');
-
-    btn.addEventListener('click', () => {
+let mode = localStorage.getItem("mode");
+const btn = document.querySelector('.btn-toggle');
+if (mode == "light"){
     document.body.classList.toggle('dark-theme');
-    if (btn.innerHTML == 'Dark Mode') {
-        btn.innerHTML = 'Light Mode';
-    }
-    else if (btn.innerHTML == 'Light Mode') {
-        btn.innerHTML = 'Dark Mode';
-    }
-})    
+    btn.innerHTML = "Dark Mode";
 }
-
+else {
+    btn.innerHTML = "Light Mode";
+}
+window.onload = () => {
+    btn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        if (localStorage.getItem("mode") == 'dark') {
+            btn.innerHTML = 'Light Mode';
+            localStorage.setItem("mode","light");
+        }
+        else if (localStorage.getItem("mode") == 'light') {
+            btn.innerHTML = 'Dark Mode';
+            localStorage.setItem("mode","dark");
+        }
+    }) 
+}

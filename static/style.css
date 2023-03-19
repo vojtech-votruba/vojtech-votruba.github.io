@@ -1,3 +1,13 @@
+a:link {text-decoration: none; color: rgb(44, 44, 44);}
+a:visited {text-decoration: none; color: rgb(44, 44, 44);}
+a:hover {text-decoration: none; font-style: italic; color: black}
+a:active {text-decoration: none; color: rgb(44, 44, 44);}
+
+body.dark-theme a:link {text-decoration: none; color: rgb(168, 168, 168);}
+body.dark-theme a:visited {text-decoration: none; color: rgb(168, 168, 168);}
+body.dark-theme a:hover {text-decoration: none; color: whitesmoke;}
+body.dark-theme a:active {text-decoration: none; color: rgb(168, 168, 168);}
+
 body {
     color: rgb(44, 44, 44);
     background-color: antiquewhite;
@@ -10,19 +20,25 @@ body.dark-theme {
 }
 
 .toppanel{
-    width: 100%;
+    top: 0%;
+    left:0%;
+    width: 99.75%;
     height: 10%;
-    position: fixed;
+    position: absolute;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
-.leftpanel{
-    background-color: greenyellow;
+body.dark-theme .toppanel {
+    border: 2px solid whitesmoke;
+}
+
+.navpanel{
     position: fixed;
-    top: 30%;
+    top: 10.5%;
     width: 15%;
-    height: 50%;
+    height: 100%;
+    border-right: 2px solid;
 }
 
 .main{
@@ -32,6 +48,11 @@ body.dark-theme {
     height: 85%;
     width: 80%;
     left: 20%;
+}
+
+.redirect {
+    font-size: 30px;
+    padding-top: 40%;
 }
 
 #button-switch{
@@ -50,4 +71,14 @@ body.dark-theme #button-switch {
     background-color: antiquewhite;
     text-align: center;
     padding: 15px 30px;
+}
+
+h1 {
+    margin-left: 10%;
+}
+h1 span {
+    font-size: 20px;
+    font-style: bold;
+    padding-left: 1%;
+    font-family: Verdana;
 }
