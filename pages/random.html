@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" data-bs-theme="dark">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href ="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-	<link href="../static/style.css" rel="stylesheet">	  
-	<title>Vojtěch Votruba Homepage</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link href="static/style.css" rel="stylesheet">	  
+	<title>Vojtěch Votruba Random</title>
 </head>
-<body class="dark-theme || light-theme">
-	<div class="toppanel">
-		<h1>Vojtěch Votruba<span>//</span><span>vojtech.votruba@seznam.cz</span> <button class="btn-toggle" id="button-switch">Light Mode</button></h1>
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<div class="navbar-nav">
+					<a class="nav-link" href="../index.html">Home</a>
+					<a class="nav-link" href="work.html">Work</a>
+					<a class="nav-link" href="personal.html">Personal</a>
+					<a class="nav-link active" aria-current="page" href="random.html">Random</a>
+				</div>
+				<span class="navbar-brand">VOJTĚCH VOTRUBA // vojtech.votruba@seznam.cz</span>
+			</div>
+		</nav>
 	</div>
-	<div class="navpanel">
-		<ul>
-			<li class="redirect"><a href="../index.html">Home</a></li>
-			<li class="redirect"><a href="personal.html">Personal</a></li>
-			<li class="redirect"><a href="work.html">Work</a></li>
-			<li class="redirect">Random Stuff</li>
-		</ul>
-	</div>
-	<div class="main">
-		Vítejte na mém osobním webu. Pokud jste sem zabloudili náhodou, tak neváhejte zmáčknou šipičku vlevo nahoře a vrátit se tak na předchozí stránku.
-	</div>
-	<script src="../static/script.js"></script>
+	<script src="static/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script></body>
 </body>
 </html>
