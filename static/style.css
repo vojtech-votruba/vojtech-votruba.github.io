@@ -12,10 +12,15 @@ a {
 }
 
 p {
-    text-align: center;
+    text-align: justify;
     font-size: larger;
     font-family: 'Libre Baskerville';
 }
+
+#caption {
+    text-align: center;
+}
+
 .centering-resize{
     position: absolute;
     left: 37%;
