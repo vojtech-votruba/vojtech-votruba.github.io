@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: local("/fonts/Libre_Baskerville/LibreBaskerville-Regular.tff");
+}
+
+.intro {
+    padding-top: 3%;
+}
+
+a {
+    font-family: 'Libre Baskerville';
+}
+
+p {
+    text-align: justify;
+    font-size: larger;
+    font-family: 'Libre Baskerville';
+}
+
+#caption {
+    text-align: center;
+}
+
+.centering-resize{
+    position: absolute;
+    left: 37%;
+    width: 26%;
+    height: auto;
+}
