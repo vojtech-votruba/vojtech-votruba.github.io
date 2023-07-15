@@ -6,4 +6,4 @@ What you can find here:
 - my projects, articles, work etc.
 - ways to contact me
 
-Feel free to check out the website at vojtech-votruba.github.io or vojtech-votruba.matfyz.cz
+Feel free to check out the website at [vojtech-votruba.github.io](https://vojtech-votruba.github.io/) or [vojtech-votruba.matfyz.cz](https://vojtech-votruba.matfyz.cz/)
