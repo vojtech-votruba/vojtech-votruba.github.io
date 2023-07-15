@@ -1,7 +1,7 @@
 # vojtavot.github.io
 Hello, my name is Vojta and this is my personal website.
 
-You can find here:
+What you can find here:
 - some info about me
 - my projects, articles, work etc.
 - how to contact me
