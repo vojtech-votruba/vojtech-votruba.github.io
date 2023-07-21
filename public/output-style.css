@@ -717,6 +717,11 @@ video {
   color: rgb(5 150 105 / var(--tw-text-opacity));
 }
 
+.text-cyan {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -734,11 +739,6 @@ video {
   .dark\:bg-darkish {
     --tw-bg-opacity: 1;
     background-color: rgb(28 25 23 / var(--tw-bg-opacity));
-  }
-
-  .dark\:text-blue-500 {
-    --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity));
   }
 
   .dark\:text-emerald {

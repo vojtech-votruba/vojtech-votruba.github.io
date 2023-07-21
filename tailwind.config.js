@@ -8,6 +8,7 @@ module.exports = {
 				darkish: '#1c1917',
 				lightish: '#f1f5f9',
 				emerald: '#059669',
+        cyan: '#22d3ee',
 			  },
         fontFamily: {
           libre: "'Libre Baskerville', serif",
