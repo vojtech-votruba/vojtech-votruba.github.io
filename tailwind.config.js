@@ -7,7 +7,7 @@ module.exports = {
 				smoke: '#e2e8f0',
 				darkish: '#1c1917',
 				lightish: '#f1f5f9',
-				emerald: '#047857',
+				emerald: '#059669',
 			  },
         fontFamily: {
           libre: "'Libre Baskerville', serif",
