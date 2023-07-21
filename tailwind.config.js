@@ -9,6 +9,9 @@ module.exports = {
 				lightish: '#f1f5f9',
 				emerald: '#047857',
 			  },
+        fontFamily: {
+          libre: "'Libre Baskerville', serif",
+        }
     },
   },
   plugins: [],
