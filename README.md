@@ -1,4 +1,4 @@
-# vojtavot.github.io
+# vojtech-votruba.github.io
 Hello, my name is Vojta and this is my personal website.
 
 What you can find here:
