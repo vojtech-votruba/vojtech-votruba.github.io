@@ -5,10 +5,11 @@ export default {
 		extend: {
 		  colors: {
 					smoke: '#e2e8f0',
-					darkish: '#1c1917',
+					darkish: '#080807',
 					lightish: '#f1f5f9',
 					emerald: '#059669',
 					cyan: '#22d3ee',
+					redish: '#940d0d'
 				  },
 			fontFamily: {
 			  libre: "'Libre Baskerville', serif",
