@@ -4,5 +4,6 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://vojtech-votruba.github.io'
+  site: 'https://vojtech-votruba.github.io',
+  output: 'static'
 });
