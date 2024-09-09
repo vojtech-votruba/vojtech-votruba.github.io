@@ -1,15 +1,34 @@
 ---
-import Header from '../components/Header.astro'
+import BaseLayout from '../layouts/BaseLayout.astro';
+/*<h2 class="mb-2 mt-0 text-4xl font-medium leading-tight text-primary">
+            Úvodní slovo
+        </h2>
+        <br/>
+        <p>
+            Zdravím, jmenuji se Vojtěch Votruba a tohle je má webová stránka.
+        </p>
+        <br/>
+        <p>
+            Možná tu jednou bude něco relevantního. Kdo ví. Tato stránka je často měněna a aktualizována, neb s ní nejsem nikdy spokojen. Prozatím můžete kliknout na šipku úplně vlevo nahoře a vrátit se tak na původní stránku. Pokud byste chtěli zavřít okno prohlížeče, můžete kliknout na křížek nebo červený čudlík někde nahoře. (Používáte-li nějakou abnormální metodu pro návštěvu této stránky&nbsp–&nbspnapř.&nbsp<i>Elinks</i>, <i>Lynx</i>, <i>w3m</i>  apod.&nbsp–&nbsp,&nbspmusíte si všechno to přijít sami : ).)
+        </p>*/
 ---
 
-</Header>
+<BaseLayout>
 
-<h1>Welcome</h1>
+    <div id="content" class="text-m containter mx-auto max-w-4xl mt-14 text-center pl-8 pr-8 pb-8">
+        <h2 class="mb-2 mt-0 text-4xl font-medium leading-tight text-primary">
+            Welcome
+        </h2>
+        <br/>
+        <p>Hi! My name is Vojta and you have stumbled upon my personal website. Some of the things you can find here are:</p>
+        <br/>
+        <ul>
+            <li>My <a class="text-emerald underline dark:text-emerald hover:no-underline" href="/contact">contact</a> information</li>
+            <li>My <a class="text-emerald underline dark:text-emerald hover:no-underline" href="/work">programming</a> projects</li>
+            <li>Random <a class="text-emerald underline dark:text-emerald hover:no-underline" href="/personal">personal</a> stuff like blogposts; favourite books, movies, music, and even equations :)</li>
+        </ul>
+        <br/>
+        <p>Feel free to look around here, and enjoy your stay!</p>
+	</div>
 
-<p>Hi! My name is Vojta and you have stumbled upon my personal website. Some of the things you can find here are:</p>
-<ul>
-    <li>- My <a href="contact">contact</a> information</li>
-    <li>- My <a href="programming">programming</a> projects</li>
-    <li>- Random <a href="personal">personal</a> stuff like blogposts; favourite books, movies, music, and even equations :)</li>
-</ul>
-<p>Feel free to look around here, and enjoy your stay!</p>
+</BaseLayout>
