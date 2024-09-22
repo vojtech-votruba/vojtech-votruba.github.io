@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+import Media from '../content/media.astro';
+import Blogposts from '../content/blogposts.astro';
+import Equation from '../content/equation.astro';
 ---
 
 <BaseLayout>
@@ -8,9 +11,9 @@ import Header from '../components/Header.astro';
     <Header/>
 
     <div id="content" class="text-sm containter mx-auto max-w-xl mt-8 text-justify pl-8 pr-8 pb-8">
-        <h2 class="mb-2 mt-0 text-3xl font-medium leading-tight text-primary text-center">
-            Personal
-        </h2>
+        <Media/>
+        <Blogposts/>
+        <Equation/>
 	</div>
 
 </BaseLayout>
