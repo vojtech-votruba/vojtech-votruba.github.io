@@ -1,19 +1,29 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
-import Media from '../content/media.astro';
-import Blogposts from '../content/blogposts.astro';
-import Equation from '../content/equation.astro';
 ---
 
 <BaseLayout>
 
     <Header/>
-
-    <div id="content" class="text-sm containter mx-auto max-w-xl mt-8 text-justify pl-8 pr-8 pb-8">
-        <Media/>
-        <Blogposts/>
-        <Equation/>
-	</div>
+    <div id="content" class="text-sm containter mx-auto max-w-xl mt-8 text-justify pl-8 pr-8 pb-8 overflow-hidden indent-3">
+        <h2 class="mb-2 mt-0 text-lg font-medium leading-tight text-primary text-center">
+            Stuff that I like
+        </h2>
+        <p>I like the books from Dostojevsky and Hermann Hesse, albeit recentely I lack any time and energy to read. For movies, I would highlight the original LOTR trilogy and the ones from Christopher Nolan,
+        they are a bit pretentious, but oh well.</p> <br>
+        <p>Apart from that, I consume a lot of popcultre, notably RPG videogames, Star Wars, and any good sci-fi or fantasy stories.</p> <br>
+        <p>For some reason I am really into Prague-based student bands such as StayJ or Squared Circles. I also like a lot of movie scores, soundtracks and the music from the Electric Light Orchestra, and a Czech folk band Asonance.</p>
+        <h2 class="mb-2 mt-0 text-lg font-medium leading-tight text-primary text-center">
+            My blogposts
+        </h2>
+        <p>All of my pseudointellectual blog posts (in Czech) can be found at the website
+        <a class="text-emerald underline dark:text-emerald hover:no-underline text-nowrap" href="https://stribro.github.io/">https://stribro.github.io/</a>
+        built by my friend Lukáš Veškrna.</p>
+        <br>
+        <hr>
+        <br>
+        <p>Some nice pictures/animations are located <a class="text-emerald underline dark:text-emerald hover:no-underline" href="/gallery">here</a>.</p>
+    </div>
 
 </BaseLayout>

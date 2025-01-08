@@ -7,15 +7,20 @@ import Header from '../components/Header.astro';
 
     <Header/>
 
-    <div id="content" class="text-sm containter mx-auto max-w-xl mt-8 text-justify pl-8 pr-8 pb-8 overflow-hidden">
+    <div id="content" class="text-sm containter mx-auto max-w-xl mt-8 text-justify pl-8 pr-8 pb-8 overflow-hidden indent-3">
         <h2 class="mb-2 mt-0 text-lg font-medium leading-tight text-primary text-center">
             Contact information
         </h2>
-        <p>My preferred method of communication is via <span class="italic">electronic mail</span>.</p>
-        You can send me messages at the address: <nobr><a href="mailto: vv.votruba@gmail.com" class="text-redish underline dark:text-cyan">vv.votruba@gmail.com</a></nobr>.
-        <br>
+        <p>My preferred method of communication is via <span class="italic">electronic mail</span>.
+        You can send me messages to the address: <nobr><a href="mailto: vv.votruba@gmail.com" class="text-redish underline dark:text-cyan">vv.votruba@gmail.com</a></nobr>.</p>
         <br>
         <p>If it's necessary, you can also contact me via any of the social platforms linked in the navbar. I live in Prague 13</p>
+        <br>
+        <br>
+        <div class="flex justify-center">
+            <iframe class="mx-auto hidden sm:visible sm:block" style="border:none" src="https://frame.mapy.cz/s/fopanuzolo" width="700" height="466" frameborder="0"></iframe>
+            <iframe class="mx-auto visible sm:invisible sm:hidden" style="border:none" src="https://frame.mapy.cz/s/redatozaha" width="360" height="280" frameborder="0"></iframe>
+        </div>
 	</div>
 
 </BaseLayout>
