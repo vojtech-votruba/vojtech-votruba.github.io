@@ -1,25 +1,25 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Header from '../components/Header.astro';
 ---
 
 <BaseLayout>
+  <section class="text-m mx-auto max-w-2xl mt-20 px-6 leading-relaxed text-justify">
+    <h1 class="text-3xl font-bold text-primary mb-6 text-center">Stuff I Like</h1>
 
-    <Header/>
-    <div id="content" class="text-sm containter mx-auto max-w-xl mt-8 text-justify pl-8 pr-8 pb-8 overflow-hidden indent-3">
-        <h2 class="mb-2 mt-0 text-lg font-medium leading-tight text-primary text-center">
-            Stuff that I like
-        </h2>
-        <p>I like the books from Dostoyevsky and Hermann Hesse, albeit recently I lack any time and energy to read. For movies, I would highlight the original LOTR trilogy and the ones by Christopher Nolan,
-        they are a bit pretentious, but oh well.</p> <br>
-        <p>Apart from that, I consume a lot of pop culture, notably RPG video games, Star Wars, and any good sci-fi or fantasy stories.</p> <br>
-        <p>For some reason, I am really into Prague-based student bands such as StayJ or Squared Circles. I also like a lot of movie scores, soundtracks, and the music from the Electric Light Orchestra, and a Czech folk band Asonance.</p>
-        <h2 class="mb-2 mt-0 text-lg font-medium leading-tight text-primary text-center">
-            My blog posts
-        </h2>
-        <p>All of my pseudointellectual blog posts (in Czech) can be found on the website
-        <a class="text-emerald underline dark:text-emerald hover:no-underline text-nowrap" href="https://stribro.github.io/">https://stribro.github.io/</a>
-        built by my friend <a class="text-emerald underline dark:text-emerald hover:no-underline text-nowrap" href="https://lesves.github.io/">Lukáš Veškrna</a>.</p>
+    <p class="mb-4">
+      I like the books of <strong>Dostoyevsky</strong> and <strong>Hermann Hesse</strong>, albeit recently I lack the time and energy to read. For movies, I’d highlight the original <strong>LOTR trilogy</strong> and the works of <strong>Christopher Nolan</strong> — a bit pretentious, but oh well.
+    </p>
+
+    <p class="mb-4">
+      Apart from that, I consume a lot of pop culture — notably <strong>RPG video games</strong>, <strong>Star Wars</strong>, and anything with good <strong>sci-fi or fantasy</strong> worldbuilding.
+    </p>
+
+    <p class="mb-8">
+      For some reason, I’m really into Prague-based student bands like <strong>StayJ</strong> or <strong>Squared Circles</strong>. I also enjoy film scores, soundtracks, <strong>Electric Light Orchestra</strong>, and the Czech folk band <strong>Asonance</strong>.
+    </p>
+    <div class="mt-6 text-center text-md text-gray-500 dark:text-gray-400">
+      <a href="/" class="underline hover:no-underline text-emerald">← Back to homepage</a>
     </div>
 
+  </section>
 </BaseLayout>

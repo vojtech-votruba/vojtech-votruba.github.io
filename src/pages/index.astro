@@ -3,24 +3,39 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout>
+  <section class="text-m mx-auto max-w-2xl mt-20 px-6 text-justify leading-relaxed">
+    <h1 class="text-center text-4xl font-bold text-primary mb-8">Hi, I’m Vojta</h1>
 
-    <div id="content" class="text-m containter mx-auto max-w-lg mt-20 inset-center text-justify pl-8 pr-8 pb-8">
-        <h2 class="mt-8 text-4xl font-medium leading-tight text-primary text-center">
-            Welcome
-        </h2>
-        <br/>
-        <p>Hi! My name is Vojta, and you have stumbled upon my personal website. Some of the things you can find here are:</p>
-        <br/>
-        <ul>
-            <li>My <a class="text-emerald underline dark:text-emerald hover:no-underline" href="/contact">contact</a> information and <a class="text-emerald underline dark:text-emerald hover:no-underline" href="/cv.pdf">CV</a>.</li>
-            <li><a class="text-emerald underline dark:text-emerald hover:no-underline" href="/random">Random personal</a> stuff like favourite books, movies, music, blog posts, and <a class="text-emerald underline dark:text-emerald hover:no-underline" href="/gallery">pictures</a> :)</li>
-        </ul>
-        <br/>
-        <p>Feel free to look around, and enjoy your stay!</p>
-        <br>
-        <footer class="text-center">
-            <small>Powered by <a href="https://astro.build/" class="text-emerald underline dark:text-emerald hover:no-underline text-nowrap">Astro</a> | Styled with <a href="https://tailwindcss.com" class="text-emerald underline dark:text-emerald hover:no-underline text-nowrap">TailwindCSS</a></small>
-        </footer>
-	</div>
+    <p class="mb-6">
+      I’m a theoretical physics student and developer currently working at Roklen, helping to build algorithmic trading systems. I’m particularly interested in computational methods, quantum mechanics, machine learning, and thermodynamics.
+    </p>
 
+    <p class="mb-6">
+      This site serves as a simple portfolio, CV, and personal intro. Just a glimpse into who I am and what I’m working on.
+    </p>
+
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2">🔗 Links</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li><a href="/cv.pdf" class="text-emerald underline hover:no-underline">My CV</a></li>
+        <li><a href="mailto:vv.votruba@gmail.com" class="text-emerald underline hover:no-underline">Email me</a></li>
+        <li><a href="https://github.com/vojtech-votruba" class="text-emerald underline hover:no-underline">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/vojtech-votruba" class="text-emerald underline hover:no-underline">LinkedIn</a></li>
+      </ul>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2">Personal Stuff</h2>
+      <p>
+          I occasionally post <a href="https://stribro.github.io/" class="text-emerald underline hover:no-underline">blog entries</a> and <a href="/random" class="text-emerald underline hover:no-underline">recommendations</a> — books, films, music, and a few <a href="/gallery" class="text-emerald underline hover:no-underline">photos</a>.
+      </p>
+      <p>
+        Shoutout to <a href="https://lesves.github.io" class="text-emerald underline hover:no-underline">Lukáš</a>, one of my best friends and a great developer.
+      </p>
+    </div>
+
+    <p class="text-center mt-6 text-sm opacity-70">
+      Powered by <a href="https://astro.build/" class="underline text-emerald">Astro</a> & styled with <a href="https://tailwindcss.com" class="underline text-emerald">TailwindCSS</a>.
+    </p>
+  </section>
 </BaseLayout>

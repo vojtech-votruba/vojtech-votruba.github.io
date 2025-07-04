@@ -1,23 +1,24 @@
 ---
+// layout.astro
 ---
 
 <!DOCTYPE html>
 <html lang="cs">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<title>Vojtěch Votruba Homepage</title>
-</head>
-<body class="mt-0 h-screen font-libre bg-lightish text-black dark:bg-darkish dark:text-smoke">
-	<div>
-		<div class="container mx-auto mt-10 max-w-7xl h-screen">
-            <slot />
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>Vojtěch Votruba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-lightish text-black dark:bg-darkish dark:text-smoke font-libre">
+    <main class="min-h-screen flex flex-col items-center px-4 sm:px-6 md:px-8 lg:px-12 py-12 max-w-3xl mx-auto">
+      <slot />
+    </main>
+  </body>
 </html>
