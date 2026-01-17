@@ -24,6 +24,7 @@ title_separator = " | "
 header_menu_name = "menu_name"
 menu_i18n = false
 disable_default_favicon = false
+favicon = "favicon.ico"
 
 [extra.style]
 bg_color = "#f4f4f5"
