@@ -1,0 +1,43 @@
+base_url = "https://vojtech-votruba.github.io"
+
+compile_sass = false
+
+build_search_index = true
+
+default_language = "en"
+author = "Vojtěch Votruba"
+title = "Vojtěch Votruba"
+theme = "linkita"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[markdown]
+highlight_code = true
+error_on_missing_highlight = false
+extra_syntaxes_and_themes = []
+highlight_theme = "boron"
+
+[extra]
+math = true
+use_cdn = true
+title_separator = " | "
+header_menu_name = "menu_name"
+menu_i18n = false
+disable_default_favicon = false
+
+[extra.style]
+bg_color = "#f4f4f5"
+bg_dark_color = "#18181b"
+
+header_blur = false
+header_color = "#e4e4e7"
+header_dark_color = "#27272a"
+
+[extra.menus]
+menu_name = [
+  { url = "$BASE_URL", name = "About" },
+]
+
+[extra.footer]
+since = 2021
+copyright = "&copy; $YEAR Vojtěch Votruba"

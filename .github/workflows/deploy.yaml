@@ -1,0 +1,21 @@
+name: Deploy Zola to GitHub Pages
+
+on:
+  push:
+    branches: [ main ] 
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build and Deploy
+        uses: shalzz/zola-deploy-action@v0.19.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_BRANCH: gh-pages
+          BUILD_THEMES: true
