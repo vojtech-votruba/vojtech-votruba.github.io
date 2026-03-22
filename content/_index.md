@@ -6,12 +6,11 @@ paginate_by = 4
 +++
 
 # Welcome.
-After multiple iterations of a personal website, I have now settled on this one. In the future I will hopefully add more content to it.
+After multiple iterations of a personal website, I have now settled on this one. In the future, I will hopefully add more content to it.
 
 ### Where you can find me
 - **Email:** [vv.votruba@gmail.com](mailto:vv.votruba@gmail.com)
 - **GitHub:** [github.com/vojtech-votruba](https://github.com/vojtech-votruba)
-- **X/Twitter:** [x.com/VojtechVotruba](https://x.com/VojtechVotruba)
 - **LinkedIn:** [linkedin.com/in/vojtech-votruba/](https://www.linkedin.com/in/vojtech-votruba/)
 
 ### What I wrote
