@@ -1,11 +1,11 @@
 +++
-title = ""
+title = "Welcome."
 description = ""
 sort_by = "date"
 paginate_by = 4
+template="pages.html"
 +++
 
-# Welcome.
 After multiple iterations of a personal website, I have now settled on this one. In the future, I will hopefully add more content to it.
 
 ### Where you can find me

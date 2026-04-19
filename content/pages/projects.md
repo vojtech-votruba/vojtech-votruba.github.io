@@ -1,9 +1,9 @@
 +++
-title = ""
+title = "Projects"
 description = ""
-sort_by = "date"
-paginate_by = 4
+path = "projects"
 +++
+
 Most of the things here are frankly embarrassing, old, outdated, not original, carried by other people or full of errors.
 
 ## Academic Projects
