@@ -8,7 +8,7 @@ Most of the things here are frankly embarrassing, old, outdated, not original, c
 
 ## Academic Projects
 - **Student competition (1st place), 2026:** [Media coverage](https://www.cvrez.cz/en/news/evaluation-of-the-student-competition-focused-on-developing-a-mathematical-model-for-a-torsional-viscomete-12906)
-- **Bc. thesis, 2025:** [Web catalogue link](https://dspace.cuni.cz/handle/20.500.11956/200245?locale-attribute=en), [Github link](https://github.com/vojtech-votruba/dissipative-systems-recognition)
+- **Bc. thesis, 2025:** [Web catalogue link](https://dspace.cuni.cz/handle/20.500.11956/200245?locale-attribute=en), [Github link](https://github.com/vojtech-votruba/dissipative-systems-recognition), [conference presentation](/votruba_iwnet.pdf)
 - **ELI Beamlines internship, 2024:** [Final presentation](/eli_presentation.pdf), [Github link](https://github.com/vojtech-votruba/bessel-beam-simulation)
 - **Department of Atmospheric Physics internship, 2023:** [Final report](/sfg_atmosfera.pdf)
 
