@@ -32,7 +32,7 @@ header_dark_color = "#27272a"
 menu_name = [
   { url = "$BASE_URL/projects", name="Projects"},
   { url = "$BASE_URL/diaries", name="Diaries"},
-  { url = "$BASE_URL/quotes", name="Quotes"},
+  { url = "$BASE_URL/remember", name="Things to remember"},
 ]
 
 [extra.footer]
