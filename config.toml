@@ -2,8 +2,6 @@ base_url = "https://vojtech-votruba.github.io"
 
 compile_sass = false
 
-build_search_index = true
-
 default_language = "en"
 author = "Vojtěch Votruba"
 title = "Vojtěch Votruba"
@@ -32,6 +30,7 @@ header_dark_color = "#27272a"
 menu_name = [
   { url = "$BASE_URL/projects", name="Projects"},
   { url = "$BASE_URL/proposals", name="Project proposals"},
+  { url = "$BASE_URL/teaching", name="Teaching"},
   { url = "$BASE_URL/diaries", name="Diaries"},
   { url = "$BASE_URL/remember", name="Things to remember"},
 ]

@@ -6,7 +6,7 @@ paginate_by = 4
 template="pages.html"
 +++
 
-After multiple iterations of a personal website, I have now settled on this one. In the future, I will hopefully add more content to it.
+After multiple iterations of a personal website, I have now settled on this one.
 
 ### Where you can find me
 - **Email:** [vv.votruba@gmail.com](mailto:vv.votruba@gmail.com)
