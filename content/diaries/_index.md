@@ -4,5 +4,7 @@ description = "Something betweeen a diary and a blog. Possibly might also functi
 template = "archive.html"
 transparent = true
 [extra]
-date_format = "%m-%d"
+date_format = "%d-%m"
 +++
+
+I have an [atom feed](/atom.xml).
