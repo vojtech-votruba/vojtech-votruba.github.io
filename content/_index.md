@@ -19,4 +19,5 @@ Oh, and I almost forgot, here are some links to other websites of my friends
 - Marek Maxa: [marek-maxa.github.io](https://marek-maxa.github.io),
 - Matouš Šafránek: [watous.github.io](https://watous.github.io),
 - Marco Souza de Joode: [marco-souza-de-joode.cz](https://www.marco-souza-de-joode.cz),
-- Vít Kološ: [vitkolos.cz](https://www.vitkolos.cz/).
+- Vít Kološ: [vitkolos.cz](https://www.vitkolos.cz/),
+- Janek Hartman [hartmaj2.github.io](https://hartmaj2.github.io/).
